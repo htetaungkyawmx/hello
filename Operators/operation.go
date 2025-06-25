@@ -17,6 +17,6 @@ func main() {
 
 	fmt.Println(isbool && hate)
 	fmt.Println(isbool || hate)
-	fmt.Println(!isbool)
+	fmt.Println(!isbool) //negation
 
 }

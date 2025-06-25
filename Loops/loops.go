@@ -15,10 +15,18 @@ func main() {
 		i++
 	}*/
 
-	for i := 1; i < 5; i++ {
+	for i := 1; i < 3; i++ {
 		for j := 1; j < i; j++ {
-			fmt.Println("❤️")
+			fmt.Println(i)
 		}
-		fmt.Println()
+		fmt.Println(i)
 	}
+
+	/*for i := 1; i <= 5; i++ {
+		if i == 3 {
+			continue // skip number 3
+		}
+		fmt.Println(i)
+	}*/
+
 }
