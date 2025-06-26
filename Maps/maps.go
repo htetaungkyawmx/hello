@@ -17,6 +17,8 @@ func main() {
 
 	/*fmt.Println(len(StudentAge))*/
 
+	// Create a nested map:
+	// Outer map: superhero name → Inner map (with RealName and City)
 	superhero := map[string]map[string]string{
 
 		"Superman": map[string]string{
@@ -30,7 +32,9 @@ func main() {
 		},
 	}
 
+	// Check if "Superman" exists in map
 	if temp, hero := superhero["Superman"]; hero {
-		fmt.Println(temp["RealName"], temp["City"])
+		// If found, print RealName and City
+		fmt.Println(temp["RealName"], temp["City"]) // Clark Kent San Francisco
 	}
 }
