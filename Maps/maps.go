@@ -28,12 +28,12 @@ func main() {
 
 		"Batman": map[string]string{
 			"RealName": "Bruce Wayne",
-			"City":     "San Francisco",
+			"City":     "Gotham",
 		},
 	}
 
 	// Check if "Superman" exists in map
-	if temp, hero := superhero["Superman"]; hero {
+	if temp, hero := superhero["Batman"]; hero {
 		// If found, print RealName and City
 		fmt.Println(temp["RealName"], temp["City"]) // Clark Kent San Francisco
 	}
