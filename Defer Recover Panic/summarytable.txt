@@ -1,0 +1,5 @@
+| Keyword   | What it does                      | Simple Meaning               |
+| --------- | --------------------------------- | ---------------------------- |
+| `defer`   | Delays a line until function ends | “Do this last”               |
+| `panic`   | Stops the program with an error   | “Something went wrong!”      |
+| `recover` | Catches the panic and continues   | “Catch and handle the crash” |
